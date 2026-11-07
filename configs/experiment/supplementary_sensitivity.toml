@@ -1,0 +1,15 @@
+# Supplementary Table S12 operating point. Documented sweep ranges:
+#   BFS depth h in {1,2,3,4,5,6} (operating 2)
+#   path length L in {1,2,3,4,5,6}  (operating 3)
+#   concordance alpha in {0.0,0.2,0.4,0.6,0.8,1.0} (operating 0.6)
+#   Top-K in {5,10,20,50,100,200} (operating 20)
+#   compat entry in {0.10,0.15,0.20,0.25,0.30,0.35} (operating 0.20)
+name = "supplementary_sensitivity"
+
+[distill]
+depth_h = 2
+path_cap_l = 3
+
+[concordance]
+alpha = 0.6
+top_k = 20

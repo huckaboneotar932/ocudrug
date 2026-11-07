@@ -1,0 +1,12 @@
+name: ocudrug-graphrag
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=2.1
+  - networkx>=3.4
+  - pip
+  - pip:
+      - pydantic>=2.9
+      - clize>=5.0
+      - jsonschema>=4.23

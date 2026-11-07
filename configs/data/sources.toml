@@ -1,0 +1,79 @@
+# Dataset registry (Table 7). Links verified 2026-06-17; the DRKG Zenodo DOI in the
+# manuscript resolved to an unrelated record and is replaced by the canonical repo.
+
+[primekg]
+role = "primary"
+version = "v2023"
+license = "MIT+CC0"
+url = "https://doi.org/10.7910/DVN/IXA7BM"
+n_ocular = 10000
+
+[hetionet]
+role = "concordance"
+version = "v1.0"
+license = "CC0-1.0"
+url = "https://het.io"
+n_ocular = 200
+
+[drkg]
+role = "concordance"
+version = "2026-04"
+license = "Apache-2.0"
+url = "https://github.com/gnn4dr/DRKG"
+n_ocular = 200
+
+[tcga_uvm]
+role = "molecular"
+version = "2017"
+license = "NIH-open"
+url = "https://portal.gdc.cancer.gov/projects/TCGA-UVM"
+n_ocular = 80
+
+[depmap_um]
+role = "cell-line"
+version = "24Q4"
+license = "CC-BY-4.0"
+url = "https://depmap.org/portal"
+n_ocular = 5
+
+[cbioportal_um]
+role = "clinical"
+version = "2025"
+license = "open-use"
+url = "https://www.cbioportal.org"
+n_ocular = 80
+
+[clinicaltrials]
+role = "clinical-anchor"
+version = "v2-2026-04"
+license = "public"
+url = "https://clinicaltrials.gov"
+n_ocular = 15
+
+[dgidb]
+role = "drug-gene"
+version = "v5.0"
+license = "open"
+url = "https://www.dgidb.org"
+n_ocular = 1000
+
+[oncokb]
+role = "evidence-tier"
+version = "2026-04"
+license = "academic"
+url = "https://www.oncokb.org"
+n_ocular = 700
+
+[chembl]
+role = "bioactivity"
+version = "v34"
+license = "CC-BY-SA-3.0"
+url = "https://www.ebi.ac.uk/chembl"
+n_ocular = 2400000
+
+[literature]
+role = "corpus"
+version = "2026-04"
+license = "public/CC-BY"
+url = "https://pubmed.ncbi.nlm.nih.gov"
+n_ocular = 100

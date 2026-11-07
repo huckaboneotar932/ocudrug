@@ -1,0 +1,6 @@
+# Stage 2 path scorer (Table 8).
+[workup]
+hidden_dim = 64
+path_cap_l = 3
+top_m = 50
+compat_default = 1.0

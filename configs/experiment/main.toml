@@ -1,0 +1,35 @@
+# Primary result configuration (Table 8, Supplementary S3).
+name = "main"
+beta = 0.0
+seeds = [42, 123, 256, 389, 512]
+
+[distill]
+depth_h = 2
+degree_cap = 64
+sparse_expand_k = 3
+subgraph_min = 5000
+subgraph_max = 10000
+
+[workup]
+hidden_dim = 64
+path_cap_l = 3
+top_m = 50
+compat_default = 1.0
+
+[concordance]
+alpha = 0.6
+top_k = 20
+bootstrap_b = 200
+tier2_min = 2
+tier3_min = 3
+
+[deposition]
+temperature = 0.0
+verifier_enabled = false
+verifier_theta = 0.80
+max_refine = 2
+
+[provenance]
+coverage_target = 0.80
+schema_version = "schema_v1.0.json"
+hash_algorithm = "SHA-256"

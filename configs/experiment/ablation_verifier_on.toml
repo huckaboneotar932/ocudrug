@@ -1,0 +1,7 @@
+# Stage 4 verifier-agent toggle ON (Alg.3 refinement loop, theta=0.80, I_max=2).
+name = "ablation_verifier_on"
+
+[deposition]
+verifier_enabled = true
+verifier_theta = 0.80
+max_refine = 2

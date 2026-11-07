@@ -1,0 +1,12 @@
+# Pipeline defaults (no SGD training step; see docs/deviations.md D2).
+[distill]
+depth_h = 2
+degree_cap = 64
+sparse_expand_k = 3
+
+[concordance]
+alpha = 0.6
+top_k = 20
+bootstrap_b = 200
+tier2_min = 2
+tier3_min = 3

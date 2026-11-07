@@ -1,0 +1,5 @@
+numpy>=2.1,<3
+networkx>=3.4,<4
+pydantic>=2.9,<3
+clize>=5.0,<6
+jsonschema>=4.23,<5

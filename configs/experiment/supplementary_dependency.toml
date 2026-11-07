@@ -1,0 +1,8 @@
+# Supplementary Table S13 cross-KG dependency test (operating point; the upstream-edge
+# removal rows are evaluated through proceedings.dependency_test).
+name = "supplementary_dependency"
+
+[concordance]
+alpha = 0.6
+top_k = 20
+bootstrap_b = 200
